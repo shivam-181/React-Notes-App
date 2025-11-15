@@ -1,27 +1,27 @@
-# 📝 Create Notes App
+# Create Notes App
 
 **Create Notes App** is a simple and responsive React-based notes application that allows users to create, manage, and organize their notes efficiently.  
 It provides an intuitive interface and fast performance, built with modern React practices and optimized for deployment.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🔗 **View App on Vercel:** [https://react-notes-app-phi-sable.vercel.app/](https://react-notes-app-phi-sable.vercel.app/)
-
----
-
-## ⚙️ Features
-
-- 🖊️ Create, edit, and delete notes easily
-- 💾 Data persistence using local storage
-- 🎨 Clean and responsive UI
-- ⚡ Optimized production build with React
-- 🔒 Accessibility and performance-focused design
+🔗 **View App on Vercel:** [https://notes-app-alpha-wine.vercel.app/](https://notes-app-alpha-wine.vercel.app/)
 
 ---
 
-## 🧩 Tech Stack
+## Features
+
+- Create, edit, and delete notes easily
+- Data persistence using local storage
+- Clean and responsive UI
+- Optimized production build with React
+- Accessibility and performance-focused design
+
+---
+
+## Tech Stack
 
 - **Frontend:** React.js (Create React App)
 - **Styling:** CSS
@@ -29,7 +29,7 @@ It provides an intuitive interface and fast performance, built with modern React
 
 ---
 
-## 📦 Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -49,7 +49,7 @@ Launches the test runner in interactive watch mode.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The project is deployed using **Vercel** for fast, reliable hosting.  
 To deploy your own version:
@@ -58,4 +58,5 @@ To deploy your own version:
    ```bash
    npm run build
    ```
+
 # Notes-App
