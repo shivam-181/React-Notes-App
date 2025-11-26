@@ -1,0 +1,5 @@
+
+> my-app@0.1.0 test
+> react-scripts test --watchAll=false
+
+PASS src/ReactNotesApp/NoteCard.test.js (6.657 s)
