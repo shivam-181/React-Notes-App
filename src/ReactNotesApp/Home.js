@@ -10,14 +10,23 @@ import { useNotes } from '../hooks/useNotes';
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   padding-top: 2rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 `;
 
 const SearchContainer = styled.div`
   position: relative;
   width: 300px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
   
   input {
     width: 100%;

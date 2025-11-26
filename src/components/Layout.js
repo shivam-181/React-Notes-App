@@ -25,6 +25,14 @@ const Navbar = styled(motion.nav)`
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
 `;
 
 const Logo = styled.h1`
@@ -35,11 +43,24 @@ const Logo = styled.h1`
   -webkit-text-fill-color: transparent;
   margin: 0;
   cursor: pointer;
+  
+  @media (max-width: 768px) {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
 `;
 
 const NavActions = styled.div`
   display: flex;
   gap: 1rem;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 `;
 
 const Layout = ({ children, navActions }) => {

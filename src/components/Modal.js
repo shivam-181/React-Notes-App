@@ -26,6 +26,11 @@ const ModalContainer = styled(motion.div)`
   width: 90%;
   max-width: 500px;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Stronger shadow for depth */
+
+  @media (max-width: 640px) {
+    padding: 1.5rem;
+    width: 95%;
+  }
 `;
 
 const Header = styled.div`
